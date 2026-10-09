@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 12px;
+            color: whitesmoke;
+        }
+
+        .stroka {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 100px;
+            height: 44px;
+            background-color: rgba(29, 29, 31, .8);
+        }
+
+        .stroka p {
+            margin: 0;
+            flex-shrink: 0;
+        }
+
+        .kolona {
+            display: flex;
+            padding: 20px 100px;
+        }
+        
+        .categoriya {
+            flex: 1;
+            min-width: 150px;
+            
+        }
+        
+        .categoriya p {
+            margin: 0 0 10px;
+            font-weight: 600;
+            color: rgba(29, 29, 31, .8);
+        }
+        
+        .categoriya h3 {
+            margin: 0 0 12px;
+            font-weight: 600;
+            color: grey;
+        }
+        
+        .categoriya:first-child p {
+            font-size: 20px;
+        }
+
+        img {
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="stroka">
+    <img src="https://www.svgrepo.com/show/503173/apple-logo.svg">
+    <p>Store</p>
+    <p>Mac</p>
+    <p>iPad</p>
+    <p>iPhone</p>
+    <p>Watch</p>
+    <p>Vision</p>
+    <p>AirPods</p>
+    <p>TV & Home</p>
+    <p>Entertainment</p>
+    <p>Accessories</p>
+    <p>Support</p>
+    <img src="https://www.svgrepo.com/show/522266/search.svg">
+    <img src="https://www.svgrepo.com/show/520950/shopping-bag-5-1.svg">
+</div>
+
+<div class="kolona">
+    <div class="categoriya">
+        <h3>Shop</h3>
+        <p>Shop the Latest</p>
+        <p>Mac</p>
+        <p>iPad</p>
+        <p>iPhone</p>
+        <p>Apple Watch</p>
+        <p>Apple Vision Pro</p>
+        <p>AirPods</p>
+        <p>Accessories</p>
+    </div>
+
+    <div class="categoriya">
+        <h3>Quick Links</h3>
+        <p>Find a Store</p>
+        <p>Order Status</p>
+        <p>Apple Upgrade</p>
+        <p>Apple Trade In</p>
+        <p>Financing</p>
+        <p>Personal Setup</p>
+        <p>College Student Offer</p>
+    </div>
+
+    <div class="categoriya">
+        <h3>Shop Special Stores</h3>
+        <p>Certified Refurbished</p>
+        <p>Education</p>
+        <p>Business</p>
+        <p>Veterans and Military</p>
+        <p>Government</p>
+    </div>
+</div>
+
+</body>
+</html>
